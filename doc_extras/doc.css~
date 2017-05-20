@@ -1,5 +1,5 @@
-body {
-
+a {
+	color: #772878;
 }
 
 #sidebar_wrapper,

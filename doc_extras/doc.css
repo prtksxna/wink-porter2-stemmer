@@ -1,0 +1,50 @@
+a {
+	color: #772878;
+}
+
+#sidebar_wrapper,
+#sidebar-toggle:hover,
+#sidebar-toggle {
+	background: #772878;
+	color: #fff;
+}
+
+#sidebar-toggle {
+	width: 20px;
+}
+
+#sidebar-toggle:hover {
+	width: 30px;
+}
+
+#tree .file,
+#headings .heading a {
+	color: #fff;
+}
+
+#sidebar_switch {
+	background: #511b52;
+	border-bottom-color: #3e153f;
+	color: #fff;
+}
+
+#sidebar_switch span {
+	color: #fff;
+}
+
+#sidebar_switch .selected {
+	color: #fff;
+	background: #9d359e;
+}
+
+blockquote {
+	border-left: 5px solid #ddd;
+	margin: 0;
+	padding-left: 10px;
+}
+
+td.docs {
+	max-width: 550px;
+	min-width: 550px;
+	background: #fff;
+}
