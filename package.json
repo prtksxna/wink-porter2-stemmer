@@ -14,6 +14,7 @@
     "test": "istanbul cover _mocha ./test/",
     "coveralls": "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
     "docs": "docco -o ./docs/ ./src/*.js",
+    "docker": "docker -i src -o doc --css doc_styling/doc.css --sidebar no",
     "hint": "jshint ./src/*.js ./test/*.js",
     "lint": "eslint ./src/*.js ./test/*.js"
   },
@@ -31,6 +32,7 @@
     "chai": "^3.5.0",
     "coveralls": "^2.11.15",
     "docco": "^0.7.0",
+    "docker": "^1.0.0",
     "eslint": "^3.13.1",
     "istanbul": "^0.4.5",
     "jshint": "^2.9.4",
